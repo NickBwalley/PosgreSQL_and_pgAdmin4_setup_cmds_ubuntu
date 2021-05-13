@@ -1,0 +1,32 @@
+# install posgresql
+$ sudo apt install posgresql 
+
+# enter to the posgres cmd shell
+$ sudo -u postgres psql
+
+# set postgres password
+$ ALTER USER postgres PASSWORD 'your_password';
+
+# quit the console
+$ \q
+
+# Enter posgres
+$ psql -U postgres -h localhost 
+$ password: 'yourpassword'
+
+# list all relations
+$ \d
+
+# list all databases
+$ \l
+
+# NOTE [
+	USERNAME: posgres
+	PORT NO: 5432
+	PASSWORD: '*********'
+]
+
+# Multiple posgreSQL users
+# list users and roles they have 
+$ \du
+
